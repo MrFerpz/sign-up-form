@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="fonts" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="fonts" href="https://fonts.googleapis.com/css?family=Kanit">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <img id="green-background" src="images/darkgreen.jpg" alt="Green Background">
+            <div class="overlay">
+                <div id="overlay-text">Sign Up NOW</div>
+                <img id="logo" src="images/SellouetteLogo.png">
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="text-container">
+                <div class="starting-text">Offering a <b>free</b> consultation with every sign-up. Register <em>today</em> to transform your business and unlock unlimited potential.</div>
+                <div class="starting-text">Come get this wonga fella.</div>
+            </div>
+            <div class="form-container">
+                <form>
+                    <p>Let's do this!</p>
+                    <div class="columns-container">
+                        <div class="column-one">
+                            <label for="first-name" id="first-name">*First name:</label>
+                            <input id="first-name" type="text" name="first-name" minlength="1" placeholder="John" required>
+
+                            <label for="email" id="email">*Email:</label>
+                            <input id="email" type="email" name="email" placeholder="johnsmith@mail.com" required>
+
+                            <label for="password" id="password">*Password:</label>
+                            <input id="password" type="password" name="password" placeholder="********" required>
+                        </div>
+
+                        <div class="column-two">
+                            <label for="last-name" id="last-name">*Last name:</label>
+                            <input id="last-name" type="text" name="last-name" minlength="1" placeholder="Smith" required>
+
+                            <label for="number" id="number">Phone Number:</label>
+                            <input id="number" type="tel" name="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-345-6789">
+
+                            <label for="confirm-password" id="confirm-password">*Confirm Password:</label>
+                            <input id="confirm-password" type="password" name="confirm-password" placeholder="********" required>
+                        </div>
+                    </div>
+                </form>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
