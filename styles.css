@@ -78,6 +78,7 @@ body {
 
 form {
     letter-spacing: 0.15rem;
+    overflow: auto;
 }
 
 .form-container {
@@ -87,6 +88,7 @@ form {
     height: 30vh;
     width: 40vw;
     background-color: white;
+    overflow: auto;
 }
 
 input, label {
